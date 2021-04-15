@@ -8,10 +8,10 @@ Functionnality might be extended in the future.
 
 The main goal right now is:
 
- - [] Importing and setting up materials
- - [] Importing Meshes
- - [] Testing Meshes and materials together in real time
- - [] Easily generate JSON configuration and file structure for linking Meshes, Materials and Textures.
+ - [ ] Importing and setting up materials
+ - [ ] Importing Meshes
+ - [ ] Testing Meshes and materials together in real time
+ - [ ] Easily generate JSON configuration and file structure for linking Meshes, Materials and Textures.
 
 ## Tools
 
