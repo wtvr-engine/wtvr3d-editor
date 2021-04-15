@@ -1,5 +1,6 @@
 import { LitElement, html, css} from 'lit';
-import { property} from 'lit/decorators';
+import { property } from 'lit/decorators.js';
+import './components/panels/w3d-material-panel';
 
 export class Wtvr3dEditor extends LitElement {
   @property({ type: String }) title = 'Wtvr3d Editor';
@@ -20,7 +21,10 @@ export class Wtvr3dEditor extends LitElement {
     }
 
     main {
+      position : relative;
       flex-grow: 1;
+      align-self: stretch;
+      padding : 5px;
     }
   `;
 
@@ -28,6 +32,7 @@ export class Wtvr3dEditor extends LitElement {
     return html`
       <main>
         <h1>${this.title}</h1>
+        <w3d-material-panel></w3d-material-panel>
       </main>
     `;
   }
