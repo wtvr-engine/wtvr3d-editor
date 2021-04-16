@@ -7,17 +7,15 @@ export class Wtvr3dEditor extends LitElement {
 
   static styles = css`
     :host {
-      min-height: 100vh;
+      height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      font-size: calc(10px + 2vmin);
-      color: #1a2b42;
-      max-width: 960px;
+      color: var(--editor-text);
       margin: 0 auto;
       text-align: center;
-      background-color: var(--wtvr3d-editor-background-color);
+      background-color: var(--editor-background);
     }
 
     main {
@@ -25,6 +23,9 @@ export class Wtvr3dEditor extends LitElement {
       flex-grow: 1;
       align-self: stretch;
       padding : 5px;
+      display : flex;
+      flex-direction : column;
+      max-height : 100%;
     }
   `;
 
